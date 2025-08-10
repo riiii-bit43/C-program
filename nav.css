@@ -1,0 +1,79 @@
+.logo{
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: var(--text-color);
+}
+.nav{
+    /* background-color: var(--main-color); */
+    background-color: transparent;
+    color: var(--bg-color);
+    width: 100%;
+    display: flex;
+   
+}
+
+.main2{
+    margin-left: 550px;
+    display: inline-flex;
+
+}
+
+.navbar{ 
+    display: inline-flex;
+    margin-top: 50px;
+    padding: 30px; 
+} 
+
+ header{ 
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    /* height: auto; */
+    z-index: 1000;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    /* padding: 30px 18%; */
+    transition: ease .40s;
+    display: inline-flex;
+} 
+.navbar a{
+    color: var(--text-color);
+    /* color: red; */
+    font-size: 15px;
+    font-weight: 500;
+    /* padding: 9px 9px; */
+      border-radius: 4px;
+    transition: ease .40s;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.main2 ul{
+    list-style: none;
+}
+.navbar a:hover{
+    /* background: var(--bg-color); */
+    background:darkblue;
+    /* background:red */
+    color:white;
+    /* color(srgb red green blue) */
+    box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+    border-radius: 4px;
+}
+/* .navbar a:visited{
+  background-color: #6e54fa;
+} */
+
+.icons{
+    margin-left:800px;
+    display: inline-flex;
+    font-size: 20px;
+  
+}
+.icons a{
+  color: #221314;
+  margin: 10px;
+  
+}
